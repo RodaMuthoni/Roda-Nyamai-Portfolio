@@ -1,0 +1,404 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 20;
+    padding: 10;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+ 
+
+nav {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    width: 97%; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: right;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+nav ul li a:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: auto;
+}
+
+h2 {
+    color: #ff5722;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin-bottom: 20px;
+    background: #f5d0ad;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+max-width: 100%;
+
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* Interests Section */
+#interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+#interests ul li::before {
+    content: "★ ";
+    color: gold;
+    font-size: 20px;
+}
+
+/* Projects Section */
+#projects {
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+/* Image */
+img {
+    width: 5%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #ff5722;
+    transition: 0.3s;
+    align-items: center;
+}
+
+img:hover {
+    transform: rotate(5deg) scale(1.05);
+}
+
+/* Contact Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 100px;
+   
+}
+
+/* Header logo container */
+.logo {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-left: 20px; 
+    font-weight: bold;
+    color: #d1390a; 
+    text-transform: uppercase; 
+
+}
+
+.name {
+    font-size: 28px; 
+    font-weight: bold; 
+    color: #d1390a; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+
+.title {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* Style for the section */
+#education {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style for the paragraph */
+#education p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #160101;
+    text-align: justify;
+}
+
+/* Style for the heading */
+#education h3 {
+    color: #0077B5; /* LinkedIn blue for professional feel */
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* Style for the unordered list */
+#education ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for list items */
+#education ul li {
+    background: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #0077B5; /* Accent color */
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+/* Style for strong text */
+#education ul li strong {
+    color: #333;
+    font-weight: bold;
+}
+
+#education a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0077B5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#projects {
+    background: linear-gradient(to right, #f7ab9e, #f0f2f3);
+    color: rgb(17, 17, 17);
+}
+
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #5fb4db, #e3f2fd); 
+    color: #333;
+    line-height: 1.6;
+    padding: 20px; 
+}
+#interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to right, #f3f4f9, #d3e8f3); 
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ .footer-footer {
+    display: flex;
+    color: #333;
+    text-align: right;
+    margin-right: 0;
+    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-card  {
+    background: #f7f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 60px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-row: auto;
+    
+}
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures the content fills the card */
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    }
+
+.project-tags span {
+    background-color: #490652;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-links {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    gap: 0.75rem;
+    display: flex;
+}
